@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#579bcc"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Intro">
+
+    <TextView
+        android:id="@+id/textView"
+
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="60dp"
+
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Line Ambulance"
+        android:textColor="@color/whit"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+
+        android:layout_width="229dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="5dp"
+
+        android:gravity="center_horizontal|center_vertical"
+        android:text="We Are Here For You"
+        android:textAlignment="center"
+        android:textColor="@color/whit"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/i1uuu"
+        app:srcCompat="@drawable/i1uuu" />
+
+    <Button
+        android:id="@+id/b1"
+
+        android:layout_width="123dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="20dp"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg_yello"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="LOG IN"
+        android:textColor="@android:color/white" />
+</LinearLayout>
